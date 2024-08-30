@@ -1,0 +1,10 @@
+.foodlist {
+    ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        margin-top: 40px;
+        gap: 20px;
+        row-gap: 40px;
+        padding-bottom: 50px;
+    }
+}
